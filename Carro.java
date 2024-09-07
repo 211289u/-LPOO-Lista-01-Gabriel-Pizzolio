@@ -35,12 +35,13 @@ public class Carro extends Veiculo {
     }
 
     public void exibirInformacoes() {
+        System.out.println("Tipo: " + tipo);
         System.out.println("Marca: " + marca);
         System.out.println("Modelo: " + modelo);
         System.out.println("Ano: " + ano);
     }
 
     public void ligar() {
-        System.out.println("O carro esta ligado.");
+        System.out.println("O carro está ligado");
     }
 }
