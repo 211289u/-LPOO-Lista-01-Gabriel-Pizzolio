@@ -9,5 +9,14 @@ public class Main {
 
         minhaMoto.exibirTipo();
         minhaMoto.exibirCilindradas();
+        System.out.println();
+
+        Veiculo[] veiculos = new Veiculo[2];
+        veiculos[0] = meuCarro;
+        veiculos[1] = minhaMoto;
+
+        for (Veiculo veiculo : veiculos) {
+            veiculo.ligar(); 
+        }
     }
 }

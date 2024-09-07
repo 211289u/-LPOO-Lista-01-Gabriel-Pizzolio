@@ -1,4 +1,4 @@
-public class Carro {
+public class Carro extends Veiculo {
     private String marca;
     private String modelo;
     private int ano;
@@ -7,6 +7,7 @@ public class Carro {
         this.marca = marca;
         this.modelo = modelo;
         this.ano = ano;
+        this.tipo = "Carro";
     }
 
     public String getMarca() {
@@ -37,5 +38,9 @@ public class Carro {
         System.out.println("Marca: " + marca);
         System.out.println("Modelo: " + modelo);
         System.out.println("Ano: " + ano);
+    }
+
+    public void ligar() {
+        System.out.println("O carro esta ligado.");
     }
 }

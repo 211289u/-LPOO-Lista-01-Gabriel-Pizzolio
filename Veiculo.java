@@ -4,4 +4,6 @@ public abstract class Veiculo {
     public void exibirTipo() {
         System.out.println("Tipo: " + tipo);
     }
+
+    public abstract void ligar();
 }

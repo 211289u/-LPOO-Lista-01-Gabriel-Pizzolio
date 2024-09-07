@@ -9,4 +9,8 @@ public class Moto extends Veiculo {
     public void exibirCilindradas() {
         System.out.println("Cilindradas: " + cilindradas);
     }
+
+    public void ligar() {
+        System.out.println("A moto esta ligada.");
+    }
 }
