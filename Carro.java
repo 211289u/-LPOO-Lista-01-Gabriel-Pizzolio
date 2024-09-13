@@ -4,6 +4,7 @@ public class Carro extends Veiculo {
     private int ano;
 
     public Carro(String marca, String modelo, int ano) {
+        super();
         this.marca = marca;
         this.modelo = modelo;
         this.ano = ano;
@@ -41,6 +42,7 @@ public class Carro extends Veiculo {
         System.out.println("Ano: " + ano);
     }
 
+    @Override
     public void ligar() {
         System.out.println("O carro está ligado");
     }
